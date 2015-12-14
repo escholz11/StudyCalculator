@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CreditsController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="700.0">
+         <image>
+            <Image url="@../images/light_green_2.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="closeButton" layoutX="513.0" layoutY="432.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="55.0" prefWidth="173.0" style="-fx-background-color: #8B8B7A;" text="%close">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="TRANSPARENT" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Label layoutX="87.0" layoutY="14.0" prefHeight="104.0" prefWidth="627.0" text="%creditsFXML">
+         <font>
+            <Font name="Pristina" size="56.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="118.0" prefHeight="39.0" prefWidth="173.0" text="%directed">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="145.0" prefHeight="39.0" prefWidth="173.0" text="%sounds">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="172.0" prefHeight="39.0" prefWidth="173.0" text="%design">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="198.0" prefHeight="39.0" prefWidth="173.0" text="%visual">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="222.0" prefHeight="39.0" prefWidth="173.0" text="%produced">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="248.0" prefHeight="39.0" prefWidth="173.0" text="%special">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="118.0" prefHeight="39.0" prefWidth="115.0" text="Enrico Scholz">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="145.0" prefHeight="39.0" prefWidth="248.0" text="Enrico Scholz, Yann Tiersen">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="172.0" prefHeight="39.0" prefWidth="115.0" text="Enrico Scholz">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="248.0" prefHeight="39.0" prefWidth="248.0" text="Marty Schulz, Tilmann Bock">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="222.0" prefHeight="39.0" prefWidth="115.0" text="Enrico Scholz">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="198.0" prefHeight="39.0" prefWidth="115.0" text="Enrico Scholz">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="307.0" prefHeight="39.0" prefWidth="173.0" text="%contact">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="307.0" prefHeight="39.0" prefWidth="115.0" text="Enrico Scholz">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="335.0" prefHeight="39.0" prefWidth="285.0" text="Technische Hochschule Wildau">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="365.0" prefHeight="39.0" prefWidth="248.0" text="Hochschulring 1, 15745 Wildau">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="393.0" prefHeight="39.0" prefWidth="262.0" text="enrico.scholz@th-wildau.de">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

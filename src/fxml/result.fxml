@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ResultController">
+   <children>
+      <ImageView fx:id="studyCourse" fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@../images/light_green_2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="231.0" layoutY="14.0" prefHeight="104.0" prefWidth="338.0" text="Study Calculator" textAlignment="CENTER">
+         <font>
+            <Font name="Pristina" size="56.0" />
+         </font>
+      </Label>
+      <Label fx:id="result1Label" layoutX="199.0" layoutY="152.0" prefHeight="72.0" prefWidth="403.0" text="%result" textAlignment="CENTER">
+         <font>
+            <Font name="Pristina" size="44.0" />
+         </font>
+      </Label>
+      <Button fx:id="abortButton" layoutX="14.0" layoutY="531.0" mnemonicParsing="false" onAction="#abortButtonAction" prefHeight="55.0" prefWidth="119.0" style="-fx-background-color: #8B8B7A;" text="%abort" textAlignment="CENTER">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="TRANSPARENT" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="againButton" layoutX="667.0" layoutY="531.0" mnemonicParsing="false" onAction="#againButtonAction" prefHeight="55.0" prefWidth="119.0" style="-fx-background-color: #8B8B7A;" text="%again" textAlignment="CENTER">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="TRANSPARENT" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Label fx:id="result3Label" layoutX="14.0" layoutY="253.0" prefHeight="72.0" prefWidth="759.0" textAlignment="CENTER">
+         <font>
+            <Font name="Pristina" size="44.0" />
+         </font>
+      </Label>
+      <Label fx:id="result4Label" layoutX="42.0" layoutY="325.0" prefHeight="72.0" prefWidth="716.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Pristina" size="42.0" />
+         </font>
+      </Label>
+      <Button fx:id="resultButton" layoutX="303.0" layoutY="466.0" mnemonicParsing="false" onAction="#resultButtonAction" prefHeight="55.0" prefWidth="194.0" style="-fx-background-color: #8B8B7A;" text="%resultButton" textAlignment="CENTER">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="TRANSPARENT" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</Pane>

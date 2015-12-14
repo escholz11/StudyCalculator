@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SettingsController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@../images/light_green_2.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="englishButton" layoutX="252.0" layoutY="199.0" mnemonicParsing="false" onAction="#englishButtonAction" prefHeight="55.0" prefWidth="186.0" style="-fx-background-color: #8B8B7A;" text="%english">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="TRANSPARENT" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Label fx:id="topLabel" layoutX="87.0" layoutY="14.0" prefHeight="104.0" prefWidth="627.0" text="%settingsHeader">
+         <font>
+            <Font name="Pristina" size="56.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="182.0" prefHeight="72.0" prefWidth="186.0" text="%language">
+         <font>
+            <Font name="Pristina" size="44.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="531.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="55.0" prefWidth="119.0" style="-fx-background-color: #8B8B7A;" text="%back">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="TRANSPARENT" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="germanButton" layoutX="453.0" layoutY="199.0" mnemonicParsing="false" onAction="#germanButtonAction" prefHeight="55.0" prefWidth="186.0" style="-fx-background-color: #8B8B7A;" text="%german">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="TRANSPARENT" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Label layoutX="74.0" layoutY="276.0" prefHeight="72.0" prefWidth="186.0" text="%sound">
+         <font>
+            <Font name="Pristina" size="44.0" />
+         </font>
+      </Label>
+      <Button fx:id="onButton" layoutX="252.0" layoutY="285.0" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="55.0" prefWidth="186.0" style="-fx-background-color: #8B8B7A;" text="%on">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="TRANSPARENT" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="offButton" layoutX="453.0" layoutY="285.0" mnemonicParsing="false" onAction="#offButtonAction" prefHeight="55.0" prefWidth="186.0" style="-fx-background-color: #8B8B7A;" text="%off">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="TRANSPARENT" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StartApplicationController">
+   <children>
+      <ImageView fx:id="studyCourse" fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@../images/light_green_2.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="topLabel" layoutX="51.0" layoutY="14.0" prefHeight="104.0" prefWidth="703.0" text="Study Calculator" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Pristina" size="56.0" />
+         </font>
+      </Label>
+      <Label fx:id="midLabel" layoutX="54.0" layoutY="155.0" prefHeight="72.0" prefWidth="679.0" text="%start2">
+         <font>
+            <Font name="Pristina" size="44.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="531.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="55.0" prefWidth="119.0" style="-fx-background-color: #8B8B7A;" text="%back">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="TRANSPARENT" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Label fx:id="selectLabel" layoutX="53.0" layoutY="230.0" prefHeight="72.0" prefWidth="679.0" text="%selectStudy">
+         <font>
+            <Font name="Pristina" size="44.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="studyCourseDropDown" layoutX="218.0" layoutY="318.0" onAction="#studyCourseAction" prefHeight="40.0" prefWidth="351.0" promptText="%studyCourse" style="-fx-background-color: #8B8B7A;" />
+      <Button fx:id="forwardButton" layoutX="667.0" layoutY="531.0" mnemonicParsing="false" onAction="#forwardButtonAction" prefHeight="55.0" prefWidth="119.0" style="-fx-background-color: #8B8B7A;" text="%forward">
+         <font>
+            <Font name="Pristina" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="TRANSPARENT" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</Pane>
